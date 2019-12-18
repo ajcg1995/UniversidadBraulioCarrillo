@@ -1,0 +1,253 @@
+*{
+	box-sizing: border-box;
+}
+
+main {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	float: left;	
+}
+
+.seccioncarreras {
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+
+.encabezadoseccion {
+	width: 90%;	
+	height: auto;
+	margin: 0 auto;
+	margin-top: 2%;
+	border-bottom: 2px solid  #FCC42F;
+}
+
+.subseccionprincipal {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	text-align: center;	
+}
+
+ .subseccion  { /*cambiar clases por seccion usar id para el width OJO*/
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	padding: 2%; /*ojo no se aplica ocn el inline block*/	
+	top: 0px;
+	text-align: justify;	
+	overflow:hidden;
+}
+
+ .infosubseccion {
+	min-height: 300px;
+	float:left;
+	width:65%; 
+	padding:2%;	 
+ }
+ 
+.imgsubseccion {
+	margin: 0 auto;
+	width:30%;
+	min-height: 250px;
+	position:relative;	
+    float: left;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+	margin-right:2%;	
+}
+
+.imgsubseccion h2 {
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  font-size: 2vw;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  line-height: 1;
+  padding: 4%;
+  position: absolute;
+  bottom: 0;
+ 
+}
+
+.imgsubseccion:hover {
+	opacity: 0.8;
+}
+
+#imagentecnico1 {
+	background-image: url(../resources/imagen/estudiante2.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+	position:relative;
+	top:0px;
+}
+
+#imagentecnico2 {
+	background-image: url(../resources/imagen/braulio3.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+#imagentecnico3 {
+	background-image: url(../resources/imagen/estudiar1.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+#imagentecnico4 {
+	background-image: url(../resources/imagen/estudiar2.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+#imagentecnico5 {
+	background-image: url(../resources/imagen/estudiar3.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+
+#imagentecnico6 {
+	background-image: url(../resources/imagen/estudiar4.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+#imagentecnico7 {
+	background-image: url(../resources/imagen/estudiar5.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+
+#imagentecnico8 {
+	background-image: url(../resources/imagen/estudiar6.jpg);
+	background-size:100%  100%; /*necesario para adaptar la imagen al div*/
+	background-repeat: no-repeat; 
+	
+}
+
+
+
+
+
+
+
+.leer-mas {
+	width: 100%;
+	height: auto;
+	padding:2%;
+	text-align: right;
+}
+
+.leer-mas a:link {
+	text-decoration:none;
+	font-size:20px;
+}
+
+nav li ul {
+	display:none;	
+		position:absolute;
+		left:none;	
+}
+
+nav ul li:hover ul {
+	position: absolute;
+	display:block;
+}
+
+nav li li {
+	display:block;
+	width:100%;
+}
+
+
+
+#menusecundario {
+	margin:auto;
+	background: #1226aa;
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*Responsive para dispositivos moviles y tabletas*/
+@media screen and (max-width: 766px){
+	.subseccionprincipal {
+		display: block;
+	}
+	.subseccion { /*cambiar clases por seccion usar id para el width OJO*/
+		display: block;	
+		width: 100%;
+	}
+	header #menu nav ul li ul li {
+		display: block;
+		float: none;
+		height: 60px;
+		overflow: hidden;
+		width: 100%;
+		border-bottom: 1px solid rgba(255,255,255, .3);
+		
+	}
+	header #menu nav ul li:hover ul li{
+		display: block;
+		position: absolute;
+		top: auto;
+		height: 60px;
+		width: 100%;
+		overflow: hidden;
+		border-bottom: 1px solid rgba(255,255,255, .3);
+		
+	}
+	.imgsubseccion{
+		width: 100%;
+
+
+	}
+	.infosubseccion{
+		width: 100%;
+	}
+
+	#secciontecnicos{
+		margin-top:68px;
+	}
+	
+}
+
+
+h1{
+	font-family: Verdana, sans-serif; 
+	font-size: 30x; 
+	font-weight: 520; 	
+	color: #080F3E;
+	text-align: left;
+	line-height: 0.7;		
+}
+
+.infosubseccion h2{
+	font-family: Verdana, sans-serif; 
+	color: #080F3E;
+	text-align: left;
+	font-size: 24px;
+}
+
+.infosubseccion p{
+	font-family: Verdana, sans-serif; 
+	text-align: justify;
+	font-size: 14px;
+	
+	line-height: 30px;
+}
+
+main {
+	padding-top: 8%;
+}
+
+hr {
+	color: #FCC42F;
+}

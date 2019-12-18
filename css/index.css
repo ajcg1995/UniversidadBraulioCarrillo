@@ -1,0 +1,785 @@
+.portada1{    
+	background: url('../resources/imagen/1.png') no-repeat center; 
+	height: 100vh;   
+	background-size: cover;
+}
+.portada2{
+	background: url('../resources/imagen/2.png') no-repeat center; 
+	height: 100vh;   
+	background-size: cover; 
+}
+.portada3{
+	background: url('../resources/imagen/3.png') no-repeat center; 
+	height: 100vh;   
+	background-size: cover;
+}
+
+.slides-h3{
+	color: white;
+	text-align: center;	
+	font-size: 1.8em;
+	text-align: left;
+	font-weight: bold;
+}
+.slides-p{
+	color: white;
+	text-align: center;	
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.carousel-caption {
+    top: 30%;
+	bottom: auto;
+	left: 10%;
+	text-align: left;
+}
+
+.btnSlide {
+    background:  #080F3E;
+	border: none;
+	color: white;
+	font-size: 1.2em;
+	z-index: 100;
+}
+.btnSlide:hover {
+    z-index: 100;
+	color: #FCC42F;
+    
+}
+
+/*Estilo para el index*/
+/*Inicio de estilos para fuentes topográficas*/
+	* {
+		margin: 0px; 
+		padding: 0px;
+	}
+	html, body{
+		margin: 0px; 
+		padding: 0px;
+	}
+
+	.div-punto-lista{
+		padding-top: 5%;
+	}
+
+	.container-fluid{
+		margin: 0px; 
+		padding: 0px;
+	}
+	
+	.card ul li p {	
+		list-style: none;	
+		padding: 0;	
+		font-size: 14px;
+	}
+	.card ul li{
+		padding-bottom: 10%;
+		line-height : 25px;
+	}
+
+	.card{
+		padding-right: 5%;
+	}
+
+	#contenido-oferta h3{
+		text-align: center;
+		color: #080F3E;		
+	}
+
+	.card h3 {		
+		text-align: right;
+		padding-right:5px ;
+		border-right-style: solid;
+		border-right-color: #FCC42F;
+		color: #080F3E;		
+		margin-bottom: 50px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+
+	p {
+	 	font-family: "Helvetica Neue",Helvetica,sans-serif;
+		font-size: 14px;
+		text-align: justify;
+		color: gray;
+		width: 100%;
+		line-height: 2;	
+	}
+
+	.texto-plan a:hover {
+		color:  #FCC42F;
+	}
+	.texto-plan a {
+		color:  black
+	}
+
+	.btn-circle {
+		width: 30px;
+		height: 30px;
+		padding: 6px 0px;
+		border-radius: 15px;
+		text-align: center;
+		font-size: 12px;
+		line-height: 1.42857;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+	/*Actualizacion al 21 de noviembre de 2019*/
+	#section-descripcion {
+		padding: 10% 0% 10% 0%;
+		margin: 0;
+		background-color: #FBFBFB;
+
+	}
+
+	#section-descripcion div.descripcion-div{		
+		padding: 2% 0% 0% 0%;
+	}
+
+	#section-descripcion div.descripcion-div h3{
+		text-align: center;
+		font-weight: bold;
+		color: #080f3e;		
+	}
+	#section-descripcion div.descripcion-div h2{
+		text-align: center;
+		font-size: large;
+		color: #080f3e;	
+		padding:0% 0% 3% 0% ;	
+	}
+
+	#section-descripcion div.descripcion-div hr{
+		margin: 0 auto;
+		color: #FCC42F;	
+	}
+
+	#section-descripcion div.descripcion-div p{
+		text-align: center;	
+		margin: 0 auto;	
+		font-family: Verdana, sans-serif; 
+		padding:2% 0% 0% 0% ;	
+	}
+	/*Inicio Seccion contenido informativo */
+	.contenido-informativo {
+		padding: 10% 0% 10% 0%;
+		margin: 0;		
+	}
+
+	#contenido-informativo-texto{
+		text-align: right;
+		padding: 5% 10% 0% 5%;
+	
+	}
+	
+	#contenido-informativo-texto div {
+		padding-right:5px ;
+		border-right-style: solid;
+		border-right-color: #FCC42F;
+		border-right-width: 2px;
+	}
+	
+	#contenido-informativo-texto h3{ 
+		text-align: right;
+		padding-right:1% ;
+		color: #080F3E;
+		font-size: 20px;
+		font-weight: bold;
+		
+	}
+	
+	#contenido-informativo-texto p{ 
+		padding-top:5% ;
+		padding-left: 50%;
+		font-size: 16px;
+		text-align: right;	
+		
+	}
+
+/*Inicio Seccion contenido informativo */
+
+	.centrador{
+		position: relative;
+		padding: 4% 4% 4% 0%;
+		text-align: right;
+	}
+	  
+	#imagen-descripcion{		  
+	    width: 100%;  
+	}
+
+	#section-descripcion div p {
+		font-size: 14px;
+	}
+
+	#cuadros{
+		padding: 0;
+	}
+
+	#cuadros .row{
+		max-height: 50%;
+		margin: 0;
+	}
+
+	
+	#video-cuadro-2 {
+		background-color: #080f3e;
+		color: white;
+		width: 100%;
+				
+	}
+
+	#video-cuadro-2 p {		
+		color: white;
+		padding: 5% 5% 0% 5%;
+	
+	}
+	#video-cuadro-3 {
+		background-color: #eeeeee;
+		width: 100%;
+	}
+
+	#video-cuadro-3 p {		
+		color: black;
+		padding: 5% 5% 0% 5%;	
+	}
+
+	.video p{
+		width:70%; 
+		text-align:left; 
+		margin: 0 auto;
+	}
+
+	#section-news{
+		padding: 10% 0% 7% 0%;
+		margin: 0 auto;
+	}
+	#section-news div{
+		padding: 2% 3% 2% 3%;
+		
+	}
+
+	/*Inicio de estilo del video*/
+	#video-section {
+		width: 100%;	
+	}
+
+	.video {		
+		padding: 0;
+		height: auto;
+		margin:0 auto;
+		text-align: center;
+		
+	}	
+	.video video {
+		object-fit: fill;
+	}
+	.contenido-plan{
+		padding: 5% 0% 5% 0%;
+	}
+
+	/*Final de estilo del video*/
+
+
+	#video-cuadro {
+		margin: 0;
+	}
+	#acerca-logros{		
+		padding: 5% 0% 5% 0%;
+		background-color: white;
+		margin: 0;		
+	}
+
+	#acerca-logros div{
+		text-align: left;
+		margin: 0 auto;				
+	}
+
+
+	#contenido-oferta hr{
+		margin: 0 auto;
+		
+	}
+
+	.card {
+		border: none; 	
+		
+	}
+	.card p{
+		text-align: right;
+		color: 080F3E;	
+		background: white;
+		margin: 0 auto;
+		border: none; 
+		font-size: small;
+				
+	}
+	.card img {		
+		
+	}	
+
+
+	/*Fin de la seccion de actualizacion 21 de noviembre de 2019*/	
+	#slogan{
+		font-size:10 px;
+	}
+	#aparecer {
+		width: 50px;
+		height :50px;
+		background-color: red;
+		margin-left: 20%;
+		display: none;
+	}
+	.main-seccion p {
+		padding: 1%;
+		text-indent: 35px;
+	}
+
+	#main-container #section-prematricula h1 {
+		color:white;
+	}
+
+	#conte-carrusel {
+		width: 100%;
+		margin: auto;
+	}
+
+	h1,h2,h3,h4, p {
+		font-family: Verdana, sans-serif; 
+	}
+
+	h1, h3 {
+		color:#FCC42F;
+	}
+
+	h2 {
+		font-size: 20px;
+		color:white;
+	}
+
+	.main-seccion h3 {
+		color: #FCC42F;	
+		text-align: left;
+		font-size: 30px;
+	}
+/*Fin de estilos para fuentes*/
+
+/*Inicio de estilos para contenido */
+
+	body {
+		background: white;
+	}
+
+/* Inicio de estilos para carrusel*/
+
+	.redes-sociales{
+		background:#FCC42F;  
+		color: white;
+		padding-top: 2%;
+		
+		margin: 0;
+	}
+	.redes-sociales h4{		 
+		color: white;
+	}
+
+
+/* Final de estilos para carrusel*/	
+
+/*Inicio sección de prematrícula*/
+	#section-prematricula h1 {
+		margin:0px;
+		color:white;
+	}
+	#section-prematricula {
+		background: #080F3E;
+		padding:1%;
+		height: auto;
+		margin:0 auto;
+		top: 0px;
+		width: 95% ;
+		text-align: center;
+	}
+
+	#div-matricula {
+		width: 100%;
+		height: auto;	
+		margin: 0 auto;
+	}
+
+	.div-sub-matricula {
+		width: 14%;	
+		margin: 0 auto;
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	.circle-link {
+		width: 100px;
+	    height: 100px;
+	    -moz-border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    border-radius: 50%;
+	    border: 2px solid #080F3E;
+	    background: #FCC42F;
+	    margin: 0 auto;
+	 }
+
+	 .circle-link:hover, .prematricula-descripcion:hover {
+	 	opacity: 0.8;
+	 }
+
+	.prematricula-descripcion {
+		margin: 0 auto;
+	}
+
+	.img-circle-link {
+		margin:auto;
+		width: 50%;
+		height: 50%;
+	    
+		position: relative;
+	  	top: 25%; 
+	}
+
+/*Final seccion de prematricula*/
+
+/*Inicio de estilos para main */
+	#main-box { 	
+		width: 100%;
+		height:auto;
+		margin: 0px;
+		text-align: center;	
+	}
+
+	#main-container {
+	 	margin: 0px;
+		width: 100%;
+		float: left;
+		padding: 2.5%;	
+	}
+
+	.main-seccion {
+		/*background: #FAFAFA; */
+		display: block;
+		height: auto;
+		padding: 3%;
+		margin: 1%;
+		min-height: 250px ;
+	}
+	
+	.leer-mas {
+		width: 100%;
+		height: auto;
+		padding: 2%;
+		text-align: right;
+	}
+
+	.leer-mas a:link {
+	    text-decoration: none;
+	    font-size: 20px;
+	}
+/*Final de estilos para main */
+
+/*Inicio de estilos para aside */
+	#aside-container { 	
+	 	padding: 0.5%;
+		width: 30%;
+		height: auto;
+		display: inline-block;
+		margin: 1% auto;
+		text-align: center;	
+		border-radius: 20px 20px 20px 20px;
+	    -moz-border-radius: 20px 20px 20px 20px;
+	    -webkit-border-radius: 20px 20px 20px 20px;
+	}
+
+	.aside-box {	
+		height: auto;
+		padding:2%;
+		margin-top: 3%;
+		margin-bottom: 3%;	
+	}
+
+	#div-contacto {
+		display: inline-block;
+		width: 30%;				
+	}
+
+	 #formulario-contactos {
+		background: #080F3E;
+		padding:2%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+
+	#div-red-social {
+		display: inline-block;
+		width: 60%;	
+		
+	}
+
+	/*Estilo para el cambio de las imagenes anuncios*/
+	#anuncio {
+		position: relative;
+		height: 320px;
+		padding: 1%;
+
+	}
+	#anuncio img {
+		width: 90%;
+		height: 250px;
+		margin: auto;
+		position:absolute;		
+		z-index:1;
+		display: block;
+	}
+
+	#anuncio img.active {
+		z-index:3;
+	}
+
+	.overlay {	
+		position: fixed;
+		margin:auto;
+		top:0; 
+		width: 100%;
+		height: 100%;
+		background: rgba(192,192,192,0.8);
+		z-index:11; 
+		opacity:1;
+		overflow-x: hidden;
+		overflow-y: hidden ;
+		padding: 4%;
+	}
+
+	.overlay img {	
+		height: 500px;
+	}		
+
+	.overlay #img-anuncio-popup {	
+		margin: auto;
+		width: 50%;
+		border:  solid 5px white;
+		height: auto;
+	}	
+
+	#boton-atras{
+		width: 28px;
+		height: 28px;
+		background-image: url(../resources/iconos/close.png);
+		display: none;
+
+	}
+	/*Final Estilo para el cambio de las imagenes anuncios*/
+	/*Final de estilos para aside */
+/*Final de estilo del contenido */
+
+
+/*Incio de estilos para la sección de links */
+	#contenedor {	
+		width: 100%;
+		height:auto;
+	}
+	#container-main-aside{
+		height: auto;	
+		overflow:hidden;
+	}
+		
+	#section-links {
+		background: #080f3e;
+		height: auto;
+		width: 100%;
+		padding:3% 10% 3% 10% ;
+	}
+
+	#contecuadroinfo {	
+		width: 80%;
+		height: auto;
+		overflow: hidden;
+		margin: auto;	
+	}
+
+	#box-links {	
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		margin: auto;	
+	}		
+
+	.article-links {
+		width: 100%;		
+		display:block;
+		
+	}
+	.article-links {
+		float: left;
+		width: 25%;	
+		height: auto;
+		padding: 2% 5% 2% 5%;
+		text-align: center;
+		margin: auto;
+		color: white;
+	}
+
+	#img-boletines {
+		width: 100%;
+		height: 800px;
+		background-image: url("../resources/boletines/boletin1.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	.tarjeta-wrap {
+		margin: 3%;
+		padding: 7%;
+		perspective: 800;		
+	}
+	.article-links h2{
+		font-size: 1rem;
+		margin: 0px 0px 0px 0px;
+	}
+
+
+	.tarjetas {
+		margin: auto;
+		width: 100%;
+		height: 100px;
+		position: relative;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		-webkit-transition: .7s ease;
+		transition: .7s ease;
+		background-size: 55%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#tarjeta {
+		background-image: url('../resources/imagen/icono7.png');
+
+	}
+
+	#tarjeta1 {
+		background-image: url('../resources/imagen/icono2.png');
+
+	}
+
+	#tarjeta2 {
+		background-image: url('../resources/imagen/icono3.png');
+	}
+
+	#tarjeta3 {
+		background-image: url('../resources/imagen/icono1.png');
+	}
+
+	.tarjeta-wrap:hover .tarjetas {
+		-webkit-transform: rotateY(720deg);
+		transform: rotateY(720deg);
+	}
+/*Final de estilos para la sección de links */
+
+
+
+
+/* Final Estilos para Formularios de contáctenos*/
+	#contenedor-redessociales{
+		width: 100%;
+		height: auto;	
+	}
+
+	#face{
+		margin: 0px;
+	}
+
+	#section-contactenos{
+		width: 100%;
+		height: auto;
+		padding: 2%;
+	}
+	
+	.solInfo{
+		width: 90%;
+		padding: 3%;
+		position: relative;
+		text-align: center;
+		border: 2px solid #FCC42F;
+		border-radius: 20px 20px 20px 20px;
+		-moz-border-radius: 20px 20px 20px 20px;
+		-webkit-border-radius: 20px 20px 20px 20px;
+		background: #FCC42F;
+	}
+	
+	.solInfoText{
+		color: white !important;
+	}
+	
+	.solInfoText:hover{
+		color: black !important;
+	}
+
+/*Inicio de estilos para responsive para dispositivos moviles y tabletas*/
+@media screen and (max-width: 700px){
+	 
+	html {
+		width: 100%;	
+	}	
+	#div-red-social, #div-contacto {
+		width: 100%;
+		display: inline-block;
+	}
+	
+	.main-seccion{
+		margin:0px;
+	}
+	#main-box {
+		width: 100%;
+		padding:5%;
+	}
+
+	#main-container, #aside-container {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+	}
+
+	#main-container{
+		margin-right:2%;
+	}
+
+
+	box-links {
+		display:block;
+	}
+	.tarjetas {
+			background-size: 30%;
+	}
+
+	#video-section {
+		display: none;
+	}
+
+	#section-prematricula {
+		display: block;
+	}
+	.div-sub-matricula {
+		width: 100%;
+		margin:0 auto;
+		display: block;
+	}
+
+	.overlay #img-anuncio-popup {
+		width: 100%;
+	}
+
+	
+
+	#section-prematricula{
+		margin-top:26%;
+	}
+}
+/*Final de estilos para responsive para dispositivos moviles y tabletas*/

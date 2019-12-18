@@ -1,0 +1,551 @@
+/*Estilos del header, menu, footer, section*/
+/*Estilos generales*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+  min-height: 100%;
+ /* position: relative; */
+  width: 100%;
+}
+
+header {
+	background: #080f3e;	
+	width: 100%;		
+}
+
+.container-fluid, .row{
+	margin: 0;	
+	padding: 0;
+}
+
+/* Inicio Estilos para Formularios de contáctenos*/
+#formulariocontacto {	
+	margin: auto;	
+	padding: 1%;
+	/* width: 40%; */
+	height: auto;		
+	-webkit-box-shadow: 1px 10px 44px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 10px 44px -9px rgba(0,0,0,0.75);
+	   box-shadow: 1px 10px 44px -9px rgba(0,0,0,0.75);	 
+}
+
+.campo-texto-formulario {
+	width: 95%;
+	height: 40px;
+	border-radius: solid 3px;
+	margin-bottom: 20px;
+	font: inherit;
+}
+
+#btnEnviar:hover {
+		opacity: 0.75;
+}
+
+
+hr {
+	color: #FCC42F;	
+	text-align: center;
+	border-style: inset;
+	border-top: 1px solid #FCC42F;
+	border-width: 1px;
+	margin-bottom: 15px;
+	margin-top: 0px;		
+  }
+
+/*
+body {
+	font-family: "Helvetica Neue",Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143; 
+	width: 100%;	
+} 
+
+section {
+	width: 100%;	
+	height: 600px;	
+} */
+
+
+/*Estilos similares a bootsrap aplicables a todo los html */
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+	color: #080f3e;
+	font-size: 20px;
+	padding-bottom:3%;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+
+a {
+	color: #FCC42F;
+    text-decoration: none;
+}
+
+a:hover {
+	color: #080f3e;
+    text-decoration: none;
+}
+/*Final Estilos similares a bootsrap aplicables a todo los html*/
+
+
+
+/*Estilos de textos*/
+footer p {
+	font-family: sans-serif;
+	font-size: 14px;
+	color: lightgray;	
+	text-align: justify;
+	margin: 0;
+	padding: 0;	
+}	
+
+#footerfinal p {
+	text-align: center;	
+	color: gray;
+	font-size: 12px;
+}
+
+#slogan p {
+	font-family: cursive;
+	font-style: oblique;
+
+	font-size: 13px;
+	color: #FCC42F;
+}
+
+	
+/*Estilo del header
+header #imgHeader {
+	margin-left:5%;
+	position: relative;
+}
+*/	
+
+/*Logo y slogan del header*/
+
+
+div .imagen {
+	height: 110px;
+	width: 100%;
+	background: #080f3e;
+}
+
+.imgmenu{
+	width: 100%;
+	color: white;
+	font-size:35px;
+	font-family: "Helvetica Neue",Helvetica,sans-serif;
+    margin-left: 5px;
+    padding-top: 5px;
+	display:none;
+}
+
+#logo {	
+	width: 15px;
+	float: left;
+	margin-left: 20px;
+	padding:2px;
+	display: none;
+}
+
+#slogan {
+	float:right;	
+	color:white;
+	margin-top:0.5%;
+	padding: 2%;
+	margin-right: 3%;
+}
+
+/*Estilo del menu*/
+#menu { 
+	width:100%;
+	height: 65px;
+	background: #080f3e;
+	border-bottom: 3px solid #FCC42F;
+	z-index:10;
+}
+
+#menu nav {
+	
+	float:right;	
+	width: 800px;
+	height: auto;
+	/* padding-top: 1.5%;	*/
+	text-decoration: none;
+}
+	
+header #menu nav .ul {	
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	float: right;
+	padding-top: 1.5%;
+}
+
+
+
+header #menu nav .ul > li {
+	display: inline;
+/*	width:20%; */
+	margin-right: 0.5%;
+/*	height: 3%; */
+	text-decoration: none;	
+}
+
+header #menu nav .ul li a {
+	color: #fff;
+	font-family: "Helvetica Neue",Helvetica,sans-serif;
+	font-size: 0.9em;
+	padding: 1%;
+	text-decoration: none;
+}
+
+#menu nav .ul li a span {
+	margin-right: 1%; 
+}
+
+
+/*------------------Submenu -------------------*/
+
+#submenu {
+position:absolute;
+text-decoration: none;
+	display: none;
+
+}
+#flechasubmenu{
+	display: none;
+	position: relative;
+	font-size: 150%;
+	width: 10%;
+	color: white;
+	float: right;
+	margin-right: 5%;
+	top: -30px;
+}
+.ul li ul {
+	
+	right:520px;	
+	position: fixed;
+	text-decoration: none;
+		
+}
+
+
+	
+
+#submenu li{
+width:200px;
+text-decoration: none;
+list-style: none;
+border-bottom:1px solid #ccc;
+padding: 5px;
+z-index: 100;
+	
+
+}
+header #menu nav .ul .mostrarsubmenu #submenu li a{
+
+	text-decoration: none;
+	padding: 5px;
+
+}
+header #menu nav .ul li a:hover {
+	color: #FCC42F;	
+	text-decoration: none;
+}
+header #menu nav .ul #submenu{
+	border-top-width: 2px;
+	border-top: 3px solid #FCC42F;
+	background: white;
+	z-index: 12;
+	
+	text-align: none;
+}
+header #menu nav .ul #submenu li a{
+		color: black;
+}
+header #menu nav .ul #submenu li a:hover{
+		color:#FCC42F;
+}
+
+.ul li > #submenu li  {
+	text-decoration: none;
+	
+}
+.ul li:hover > #submenu {
+	display:block;
+}
+
+
+/*Necesario para fijar el menu en la parte superior*/
+.fixed {	
+	position:fixed;
+	top:0;
+}
+
+/*Estilos del footer*/
+footer {
+	width:100%;	
+	margin:0px;
+  	bottom: 0;
+
+}
+
+#footercontacto {
+	padding: 2%;
+	width:100%;
+	height:auto;	
+	margin: 0 ;	
+	overflow: hidden;
+	background:#080f3e;	
+}
+footer h3{
+	color: #FCC42F;
+	font-size: medium;
+}
+
+
+footer .contacto {		
+	width: 31%;
+	margin:1%;	
+	height: auto;
+	float:left;	
+	overflow: hidden;
+}
+
+#footerfinal{
+	width: 100%;
+	height:  auto;
+	margin: 0 auto;	
+	background: black;
+}	
+
+#btnEnviar {
+	background: #FCC42F;
+	border: none;
+	color: white;
+	font-size: 15px;	   
+}
+
+#btnEnviar-azul {
+	background: #080f3e;
+	border: none;
+	color: white;
+	font-size: 15px;	   
+}
+
+#btnEnviar:hover {
+		opacity: 0.75;
+
+}
+
+
+/*Inicio de estilos para banners */
+.contenedor-banner{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima-banner{
+    position: absolute;
+    top: 12%;
+	left: 8%;	
+}
+
+.texto-encima-banner h3{
+	color: white;
+	font-size: 2em;
+	text-align: left;
+	font-weight: bold;
+}
+
+.texto-encima-banner p{
+	color: white;
+	font-size: 1.1em;
+	text-align: left;
+}
+
+/*Fin de estilos para banners */
+
+
+
+
+
+
+/*Responsive para dispositivos moviles y tabletas*/
+@media screen and (max-width: 850px){
+	body{
+		overflow-x: hidden;		
+	}	
+	footer .contacto {
+		width: 90%;		
+		margin: 0 auto; 
+		padding: 4%;
+	}
+	#menu nav {
+		margin: auto;
+	}	
+	header #menu nav .ul {	
+		margin: auto;
+	}
+	#logo a img{
+		display: none;
+	}
+	img.portada{
+		height: 250px;
+	}
+}
+@media screen and (max-width: 766px){
+	#logo a img {
+		display: block;
+	}
+	section{ 
+		height: auto;
+	}
+	
+	footer{ 
+		height: auto;
+	}
+
+	.imagen{
+		display: none;
+	}
+	
+	#logo{
+		display: block;
+		position: relative;
+		bottom: 5px;
+		left: -15px;
+		width: auto;
+		height: auto;
+	}
+
+	header {
+		background: red;
+	}
+
+	#menu {
+		position: fixed;		
+	}
+
+	header #menu nav .ul {	
+		top:60px;
+		width: 50%;
+		height: 90%;
+		margin: 0;
+		position: fixed;
+		left: -100%;
+		z-index: 10;
+		background: #080f3e;
+	}
+
+	#menu nav .ul li a span {
+		margin-right: 5%; 
+	}
+
+	nav li .ul {
+		margin-left:0px;	
+	}
+
+	header nav .ul li a {
+
+		display: block;
+		text-align: left;
+	}
+
+	header #menu nav .ul li {
+		display: block;
+		padding-top: 20px;
+		float: none;
+		height: 60px;
+		width: 100%;
+		border-bottom: 1px solid rgba(255,255,255, .3);
+	}
+
+	header #menu nav .ul .tamano-menu{
+		height: 39px;
+
+	}
+	
+	header #menu nav .ul .mostrarsubmenu #submenu .tamano-menu{
+		height: 39px;
+
+	}
+
+	.ul .mostrarsubmenu:hover > #submenu {
+		display: none;
+	
+			    }
+	header #menu nav .ul .mostrarsubmenu #submenu li {
+
+		width:100%;
+
+	}
+	header #menu nav .ul .mostrarsubmenu #submenu{
+
+		width: 100%;
+	}
+	#flechasubmenu{
+		display: block;
+	}
+
+	header #menu nav .ul .mostrarsubmenu #submenu {
+	overflow:scroll;
+
+	}
+
+	header #menu nav .ul .mostrarsubmenu #submenu li{
+	border-bottom: 1px solid
+
+	}
+	.imgmenu{
+		z-index: 10;
+		display: block;
+		width: 100%;
+		background:red;
+	}
+
+	samp{
+		float: right;
+		margin-right: 20px;
+		margin-top: 5px;
+	}
+
+	img.portada{
+		height: 250px;
+	}
+	.texto-encima-banner h3 {		
+		padding-top: 10%;
+	}
+	
+}
+/*Responsive para las pantallas mas pequeñas MENU*/
+@media screen and (max-width: 400px){
+	header #menu nav .ul {	
+		width: 200PX;
+	}
+	#flechasubmenu{
+		top: -25px;
+	}
+
+	img.portada{
+		height: 250px;
+	}
+	
+}

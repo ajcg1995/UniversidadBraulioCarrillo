@@ -1,0 +1,27 @@
+h3 {
+	font-family: Verdana, sans-serif; 
+	font-size: 22px; 
+	font-weight: 520; 	
+	color: #080F3E;
+	text-align: left;
+	padding-bottom: 1%;	
+}
+
+.contenedor-educacion p {
+	font-family: Verdana, sans-serif; 
+	line-height : 25px;
+	font-size: medium;
+	text-align: justify;
+	padding-bottom: 5% ;
+}
+
+img.portada{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.contenedor-educacion{
+  padding-top: 8% ;
+ 
+}

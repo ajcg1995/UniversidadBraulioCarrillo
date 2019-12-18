@@ -1,0 +1,48 @@
+.encabezadoseccion{
+	font-family: Verdana, sans-serif; 
+	width: 100%;	
+	height: auto;
+	margin: 0;
+	padding-top:1%;
+	padding-bottom: 1%;
+	color: white;
+	background:  #FCC42F;	
+	-webkit-box-shadow: 0px 7px 5px -3px rgba(107,102,107,1);
+    -moz-box-shadow: 0px 7px 5px -3px rgba(107,102,107,1);
+	box-shadow: 0px 7px 5px -3px rgba(107,102,107,1);
+}
+
+#contenedor{
+	margin: 0 auto;
+	padding: 0;	 
+}
+
+#contenedor div.contacto{	
+	margin: 0;
+	padding-top:8% ;
+}
+
+#contenedor div.contacto div{	
+	margin: 0 auto;	
+}
+
+h1{
+	font-size: 25px;
+	font-weight: 520; 	
+}
+
+ h3{
+	font-family: Verdana, sans-serif; 
+	font-size: 22px; 
+	font-weight: 520; 	
+	color: #080F3E;
+	text-align: left;
+}
+p {
+	font-size: 14px;
+	text-align: justify;
+	color: black;
+	line-height: 2;	
+	
+}
+
